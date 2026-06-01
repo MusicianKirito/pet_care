@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" role="img" aria-labelledby="title desc">
+  <title id="title">泡泡爪宠物洗护店位置地图</title>
+  <desc id="desc">可爱清新的宠物店风格地图，标记上海市宜川路街道陕西北路1620号。</desc>
+  <defs>
+    <filter id="softShadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="10" stdDeviation="10" flood-color="#0f6e68" flood-opacity="0.16"/>
+    </filter>
+    <linearGradient id="park" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#c8f6d1"/>
+      <stop offset="1" stop-color="#aeeec1"/>
+    </linearGradient>
+    <linearGradient id="pin" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#ff8aa4"/>
+      <stop offset="1" stop-color="#ff5d7f"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="960" height="540" fill="#f4fbff"/>
+
+  <g opacity="0.9">
+    <path d="M30 70 190 22 340 62 480 28 650 76 910 28" fill="none" stroke="#ddeef8" stroke-width="54" stroke-linecap="round"/>
+    <path d="M-20 360 130 300 268 332 420 284 572 330 980 260" fill="none" stroke="#ddeef8" stroke-width="64" stroke-linecap="round"/>
+    <path d="M92 548 220 436 424 484 575 420 760 468 980 402" fill="none" stroke="#ddeef8" stroke-width="60" stroke-linecap="round"/>
+  </g>
+
+  <path d="M318 302 C392 260 490 260 574 302 C654 342 715 412 722 540 L304 540 C278 445 250 356 318 302Z" fill="url(#park)" stroke="#8bdca1" stroke-width="4"/>
+  <path d="M404 482 C446 430 542 428 586 482" fill="none" stroke="#ffffff" stroke-width="15" stroke-linecap="round"/>
+  <path d="M458 514 C470 484 520 482 534 514" fill="none" stroke="#ffffff" stroke-width="12" stroke-linecap="round"/>
+  <circle cx="497" cy="475" r="18" fill="#ffffff" opacity="0.88"/>
+  <circle cx="444" cy="438" r="10" fill="#ffffff" opacity="0.88"/>
+  <circle cx="550" cy="438" r="10" fill="#ffffff" opacity="0.88"/>
+
+  <g stroke-linecap="round" stroke-linejoin="round">
+    <path d="M-20 278 178 220 350 252 520 192 702 232 990 168" fill="none" stroke="#ffffff" stroke-width="78"/>
+    <path d="M-20 278 178 220 350 252 520 192 702 232 990 168" fill="none" stroke="#b9c8d4" stroke-width="82" opacity="0.55"/>
+    <path d="M-20 278 178 220 350 252 520 192 702 232 990 168" fill="none" stroke="#ffffff" stroke-width="68"/>
+
+    <path d="M72 548 198 420 278 326 390 238 474 142 562 40" fill="none" stroke="#b9c8d4" stroke-width="74" opacity="0.55"/>
+    <path d="M72 548 198 420 278 326 390 238 474 142 562 40" fill="none" stroke="#ffffff" stroke-width="60"/>
+
+    <path d="M650 -20 594 94 568 184 550 270 538 388 516 560" fill="none" stroke="#b9c8d4" stroke-width="56" opacity="0.55"/>
+    <path d="M650 -20 594 94 568 184 550 270 538 388 516 560" fill="none" stroke="#ffffff" stroke-width="44"/>
+
+    <path d="M808 -20 780 118 782 246 825 374 900 560" fill="none" stroke="#ffdca4" stroke-width="74"/>
+    <path d="M808 -20 780 118 782 246 825 374 900 560" fill="none" stroke="#fff4dc" stroke-width="56"/>
+
+    <path d="M6 428 164 346 288 350 430 298 560 320 700 300 952 214" fill="none" stroke="#b9c8d4" stroke-width="50" opacity="0.48"/>
+    <path d="M6 428 164 346 288 350 430 298 560 320 700 300 952 214" fill="none" stroke="#ffffff" stroke-width="38"/>
+  </g>
+
+  <g fill="#e9f2f7" stroke="#d4e3ec" stroke-width="2">
+    <rect x="56" y="86" width="150" height="84" rx="18"/>
+    <rect x="230" y="82" width="150" height="96" rx="18"/>
+    <rect x="676" y="68" width="88" height="124" rx="18"/>
+    <rect x="806" y="88" width="112" height="84" rx="18"/>
+    <rect x="86" y="250" width="120" height="76" rx="16"/>
+    <rect x="222" y="238" width="92" height="62" rx="15"/>
+    <rect x="626" y="268" width="114" height="76" rx="16"/>
+    <rect x="748" y="340" width="106" height="86" rx="18"/>
+    <rect x="96" y="426" width="120" height="82" rx="18"/>
+    <rect x="230" y="404" width="94" height="74" rx="16"/>
+  </g>
+
+  <g fill="#7f93a3" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="24" font-weight="700">
+    <text x="388" y="202" transform="rotate(-48 388 202)">陕西北路</text>
+    <text x="214" y="374" transform="rotate(-20 214 374)">澳门路</text>
+    <text x="778" y="138" transform="rotate(75 778 138)">江宁路</text>
+    <text x="548" y="356" transform="rotate(-82 548 356)">普陀路</text>
+  </g>
+
+  <g fill="#5e7180" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif">
+    <text x="372" y="448" font-size="30" font-weight="800" fill="#55ad67">光明城市公园</text>
+    <text x="438" y="166" font-size="22" font-weight="700">华生大厦</text>
+    <text x="618" y="390" font-size="20">时光青年旅舍</text>
+    <text x="86" y="142" font-size="20">澳门路社区</text>
+    <text x="688" y="108" font-size="19">中华1912</text>
+    <text x="812" y="150" font-size="19">普陀区人民医院</text>
+  </g>
+
+  <g transform="translate(462 234)" filter="url(#softShadow)">
+    <path d="M66 0 C103 0 132 29 132 66 C132 116 66 172 66 172 C66 172 0 116 0 66 C0 29 29 0 66 0Z" fill="url(#pin)"/>
+    <circle cx="66" cy="63" r="39" fill="#ffffff"/>
+    <circle cx="53" cy="58" r="9" fill="#0f8f86"/>
+    <circle cx="79" cy="58" r="9" fill="#0f8f86"/>
+    <circle cx="45" cy="82" r="9" fill="#0f8f86"/>
+    <circle cx="87" cy="82" r="9" fill="#0f8f86"/>
+    <ellipse cx="66" cy="80" rx="15" ry="13" fill="#0f8f86"/>
+  </g>
+
+  <g transform="translate(286 154)" filter="url(#softShadow)">
+    <rect x="0" y="0" width="254" height="94" rx="28" fill="#ffffff"/>
+    <path d="M28 94 52 76 74 94Z" fill="#ffffff"/>
+    <text x="28" y="36" fill="#0f8f86" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="24" font-weight="800">泡泡爪宠物洗护</text>
+    <text x="28" y="68" fill="#657471" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="17">陕西北路1620号</text>
+  </g>
+
+  <g transform="translate(38 34)">
+    <rect width="150" height="46" rx="23" fill="#ffffff" opacity="0.92"/>
+    <circle cx="24" cy="23" r="12" fill="#ff8aa4"/>
+    <text x="48" y="30" fill="#0f8f86" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="18" font-weight="800">门店位置</text>
+  </g>
+</svg>
