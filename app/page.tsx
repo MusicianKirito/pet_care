@@ -232,7 +232,7 @@ export default function Home() {
               title="门店信息"
               text="门店位于上海市宜川路街道陕西北路1620号，靠近光明城市公园和华生大厦，建议提前 1 天预约。"
             />
-            <div className="grid grid-cols-2 gap-[18px] max-lg:grid-cols-1">
+            <div className="grid gap-[18px]">
               <article className="card p-[26px]">
                 <h3 className="mb-3.5 text-[22px] font-bold">泡泡爪宠物洗护店</h3>
                 <ul className="grid gap-3 text-[#40504d]">
@@ -243,13 +243,13 @@ export default function Home() {
                   <StoreInfo label="到店提示" value="首次到店请携带免疫记录，敏感皮肤请提前说明。" />
                 </ul>
               </article>
-              <article className="card relative grid min-h-[322px] overflow-hidden bg-[#f4fbff]" aria-label="上海市宜川路街道陕西北路1620号门店位置示意">
+              <article className="card relative grid min-h-[520px] overflow-hidden bg-[#f4fbff] max-sm:min-h-[360px]" aria-label="上海市宜川路街道陕西北路1620号门店位置示意">
                 <Image
-                  className="object-cover"
+                  className="object-contain"
                   src="/assets/store-map-ai.png"
                   alt="可爱清新的宠物店风格地图，标记泡泡爪宠物洗护位于上海市宜川路街道陕西北路1620号"
                   fill
-                  sizes="(max-width: 1024px) 100vw, 50vw"
+                  sizes="100vw"
                 />
               </article>
             </div>
