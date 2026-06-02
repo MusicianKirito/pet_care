@@ -1,6 +1,24 @@
 "use client";
 
+import { useState } from "react";
+
+const defaultVisitTime = "09:30";
+
+function getTomorrowDateValue() {
+  const tomorrow = new Date();
+  tomorrow.setDate(tomorrow.getDate() + 1);
+
+  const year = tomorrow.getFullYear();
+  const month = String(tomorrow.getMonth() + 1).padStart(2, "0");
+  const day = String(tomorrow.getDate()).padStart(2, "0");
+
+  return `${year}-${month}-${day}`;
+}
+
 export function BookingForm() {
+  const [visitDate, setVisitDate] = useState(getTomorrowDateValue);
+  const [visitTime, setVisitTime] = useState(defaultVisitTime);
+
   return (
     <form className="m-[18px] rounded-lg bg-white p-7 text-ink max-sm:p-6" onSubmit={(event) => event.preventDefault()}>
       <label className="mb-1.5 block text-sm font-bold text-muted" htmlFor="name">
@@ -44,6 +62,8 @@ export function BookingForm() {
             id="visit-date"
             name="visitDate"
             type="date"
+            value={visitDate}
+            onChange={(event) => setVisitDate(event.target.value)}
           />
         </div>
         <div>
@@ -55,9 +75,11 @@ export function BookingForm() {
             id="visit-time"
             name="visitTime"
             type="time"
-            min="10:00"
+            min="09:30"
             max="21:00"
             step="1800"
+            value={visitTime}
+            onChange={(event) => setVisitTime(event.target.value)}
           />
         </div>
       </fieldset>
