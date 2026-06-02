@@ -34,6 +34,34 @@ export function BookingForm() {
         <option>皮毛护理</option>
       </select>
 
+      <fieldset className="mb-3.5 grid grid-cols-2 gap-3 max-sm:grid-cols-1">
+        <div>
+          <label className="mb-1.5 block text-sm font-bold text-muted" htmlFor="visit-date">
+            期望到店日期
+          </label>
+          <input
+            className="min-h-11 w-full rounded-lg border border-ink/15 px-3 py-2.5 font-sans text-ink"
+            id="visit-date"
+            name="visitDate"
+            type="date"
+          />
+        </div>
+        <div>
+          <label className="mb-1.5 block text-sm font-bold text-muted" htmlFor="visit-time">
+            期望到店时间
+          </label>
+          <input
+            className="min-h-11 w-full rounded-lg border border-ink/15 px-3 py-2.5 font-sans text-ink"
+            id="visit-time"
+            name="visitTime"
+            type="time"
+            min="10:00"
+            max="21:00"
+            step="1800"
+          />
+        </div>
+      </fieldset>
+
       <label className="mb-1.5 block text-sm font-bold text-muted" htmlFor="note">
         补充说明
       </label>
