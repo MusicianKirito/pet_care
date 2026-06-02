@@ -1,5 +1,6 @@
 import { BookingForm } from "@/components/BookingForm";
 import { EnvironmentCarousel } from "@/components/EnvironmentCarousel";
+import { ReviewCarousel } from "@/components/ReviewCarousel";
 import Image from "next/image";
 
 const navItems = [
@@ -73,21 +74,6 @@ const steps = [
   {
     title: "交付反馈",
     text: "说明皮肤、耳朵、指甲和毛结情况，并给出居家梳理建议。",
-  },
-];
-
-const reviews = [
-  {
-    text: "我家比熊容易打结，护理师很耐心，修完圆圆的特别可爱，还提醒我哪些地方要多梳。",
-    name: "陈女士",
-  },
-  {
-    text: "猫咪比较胆小，店里安排了安静时段，洗完没有炸毛，回家状态也很好。",
-    name: "林女士",
-  },
-  {
-    text: "价格提前说清楚，中途会发照片，接送也准时。以后固定来这里洗。",
-    name: "周先生",
   },
 ];
 
@@ -273,15 +259,7 @@ export default function Home() {
         <section className="section-pad" id="reviews">
           <div className="page-container">
             <SectionHead title="附近铲屎官的真实反馈" text="好洗护不只是香喷喷，更是宠物状态稳定、细节处理干净。" />
-            <div className="grid grid-cols-3 gap-[18px] max-lg:grid-cols-2 max-sm:grid-cols-1">
-              {reviews.map((review) => (
-                <article className="card flex min-h-[220px] flex-col p-6" key={review.name}>
-                  <div className="mb-3 tracking-[2px] text-[#f4a62a]">★★★★★</div>
-                  <p className="mb-4 text-[#40504d]">“{review.text}”</p>
-                  <strong className="mt-auto block pt-2">{review.name}</strong>
-                </article>
-              ))}
-            </div>
+            <ReviewCarousel />
           </div>
         </section>
 

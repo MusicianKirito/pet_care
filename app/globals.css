@@ -11,6 +11,18 @@ body {
   color: #213331;
 }
 
+@keyframes review-slide {
+  from {
+    opacity: 0;
+    transform: translateY(18px) scale(0.98);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
 @layer components {
   .page-container {
     @apply mx-auto w-[min(1120px,calc(100%_-_40px))] max-sm:w-[min(1120px,calc(100%_-_28px))];
@@ -34,5 +46,9 @@ body {
 
   .eyebrow {
     @apply inline-flex w-fit items-center gap-2 rounded-full bg-white/80 px-3 py-[7px] text-sm font-bold text-brand-dark;
+  }
+
+  .animate-review-slide {
+    animation: review-slide 520ms ease both;
   }
 }
